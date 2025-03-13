@@ -1,61 +1,60 @@
-# Project Nexus Documentation
+📌 Online Poll System Backend
+A Scalable and Real-Time Polling API
+🚀 Efficiently create, manage, and analyze online polls with real-time voting and result computation.
 
-## Overview of the ProDev Backend Engineering Program
-The ProDev Backend Engineering program is an intensive learning journey designed to equip learners with the skills and knowledge required to build robust, scalable, and efficient backend systems. This repository serves as a documentation hub for my major learnings throughout the program.
+🌍 Real-World Application
+This project simulates a backend system for online polling platforms that require real-time data processing. It offers developers hands-on experience with:
+✅ Building scalable APIs for voting systems.
+✅ Optimizing database schemas for high-performance queries.
+✅ Documenting APIs for public access using Swagger.
 
----
+🔍 Overview
+This project provides RESTful APIs for:
 
-## Major Learnings
+Poll creation with multiple options.
+User voting while preventing duplicate submissions.
+Real-time result computation for each poll option.
+Detailed API documentation using Swagger.
+It follows best practices in Django REST Framework (DRF) and PostgreSQL for scalability and performance.
 
-### Key Technologies Covered
-- **Python**: Learned to write clean, efficient, and maintainable code.
-- **Django**: Built web applications using Django's powerful framework.
-- **REST APIs**: Designed and implemented RESTful APIs for seamless communication between frontend and backend systems.
-- **GraphQL**: Explored GraphQL as an alternative to REST for flexible data querying.
-- **Docker**: Containerized applications for consistent deployment across environments.
-- **CI/CD**: Implemented Continuous Integration and Continuous Deployment pipelines for automated testing and deployment.
+🎯 Project Goals
+Objective	Description
+📡 API Development	Build endpoints for poll creation, voting, and fetching results.
+💾 Database Efficiency	Optimize schemas for real-time vote counting.
+📝 Documentation	Provide Swagger API documentation for easy integration.
+🛠️ Technologies Used
+Technology	Purpose
+Django	Backend framework for rapid API development.
+Django REST Framework (DRF)	API development and serialization.
+PostgreSQL	Relational database optimized for polling data.
+Swagger (drf-yasg)	API documentation.
+🚀 Key Features
+1️⃣ Poll Management
+✅ Create polls with multiple options.
+✅ Store creation date and expiry date for each poll.
 
-### Important Backend Development Concepts
-- **Database Design**: Understood relational and non-relational database systems, normalization, and indexing.
-- **Asynchronous Programming**: Leveraged async/await in Python for non-blocking I/O operations.
-- **Caching Strategies**: Implemented caching mechanisms (e.g., Redis) to improve application performance.
+2️⃣ Voting System
+✅ Users can cast votes securely.
+✅ Validations prevent multiple votes on the same poll.
 
-### Challenges Faced and Solutions Implemented
-- **Challenge**: Debugging complex Django middleware issues.
-  - **Solution**: Used Django's logging and debugging tools to identify and resolve the issue.
-- **Challenge**: Optimizing database queries for large datasets.
-  - **Solution**: Implemented indexing and query optimization techniques.
+3️⃣ Result Computation
+✅ Real-time vote counting per option.
+✅ Optimized database queries for fast results retrieval.
 
-### Best Practices and Personal Takeaways
-- Write modular and reusable code.
-- Always document your APIs and codebase.
-- Test thoroughly using unit tests, integration tests, and end-to-end tests.
-- Collaborate effectively with frontend developers to ensure seamless integration.
+4️⃣ API Documentation
+✅ Swagger UI for API documentation.
+✅ Accessible at /api/docs/ after deployment.
 
----
-
-## Collaboration
-
-### Collaborate with:
-- **Fellow ProDev Backend Learners**: Exchange ideas, organize study sessions, and develop synergies.
-- **ProDev Frontend Learners**: Collaborate with them to ensure your backend API endpoints align with their frontend requirements.
-
-### Where to Collaborate:
-- **Dedicated Discord Channel**: `#ProDevProjectNexus`
-  - Share ideas, ask/answer questions, and stay updated with announcements.
-
----
-
-## ProDev Tip!
-Use the first week to:
-- Communicate which project you are developing.
-- Identify ProDev Frontend learners working on the same project to ensure seamless collaboration.
-
----
-
-## Repository Structure
-- `README.md`: Overview and documentation of the program.
-- Additional files/folders (if any): Add descriptions here.
-
----
-
+⚙️ Implementation Process
+📌 Git Commit Workflow
+Commit Type	Example
+Initial Setup	feat: set up Django project with PostgreSQL
+Feature Development	feat: implement poll creation and voting APIs
+Optimization	perf: optimize vote counting queries
+Documentation	feat: integrate Swagger documentation
+docs: update README with API usage
+📊 Evaluation Criteria
+✅ Functionality – Polls, options, and votes work correctly.
+✅ Code Quality – Clean, modular, and follows Django best practices.
+✅ Performance – Efficient vote counting & real-time results.
+✅ Documentation – Clear API documentation via Swagger & README.
