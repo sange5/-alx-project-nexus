@@ -5,7 +5,7 @@ A Scalable and Real-Time Polling API
 🌍 Real-World Application
 This project simulates a backend system for online polling platforms that require real-time data processing. It offers developers hands-on experience with:
 ✅ Building scalable APIs for voting systems.
-✅ Optimizing database schemas for high-performance queries.
+✅ Optimizing database schemas for high-performance queries
 ✅ Documenting APIs for public access using Swagger.
 
 🔍 Overview
