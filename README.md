@@ -1,4 +1,4 @@
-📌 Online Poll System Backend
+📌 Online Poll System Backend.
 A Scalable and Real-Time Polling API
 🚀 Efficiently create, manage, and analyze online polls with real-time voting and result computation.
 
